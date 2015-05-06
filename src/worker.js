@@ -49,9 +49,3 @@ function _extractURLFromIconURL(icon) {
 function _extractSubscriptionIdFromIconURL(icon) {
     return icon.split("+")[1];
 }
-
-function _getGcmRegistrationId() {
-    return self.registration.pushManager.getSubscription(function(subscription) {
-        return subscription.subscriptionId;
-    });
-}
