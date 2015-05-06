@@ -1,0 +1,12 @@
+{
+    "name": "webpush",
+    "version": "0.0.1",
+    "devDependencies": {
+        "watch": "latest"
+    },
+    "scripts": {
+        "dev": "npm run server",
+        "server": "python -m SimpleHTTPServer",
+        "build": ""
+    }
+}

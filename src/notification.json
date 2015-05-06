@@ -1,0 +1,7 @@
+{
+    "title": "title",
+    "body": "body",
+    "icon": "https://pbs.twimg.com/profile_images/567276142835400704/8ZBar3V8_bigger.png",
+    "url": "http://localhost:8000/page.html",
+    "tag": "sometag"
+}
